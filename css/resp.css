@@ -41,7 +41,7 @@
         height: auto;
     }
 
-    footer{
+    .contacts{
         display: flex;
         flex-direction: column;
     }
