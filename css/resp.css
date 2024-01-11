@@ -40,9 +40,7 @@
         width: 75%;
         height: auto;
     }
-    .educ-resp:hover{
-        width: 90%;
-    }
+
     footer{
         display: flex;
         flex-direction: column;

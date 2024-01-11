@@ -111,11 +111,6 @@ html{
     background: linear-gradient(45deg,#20bcc4,#9d86dd);
     width: 30%;
     border-radius: 20px;
-    transition: all 1s ease;
-}
-.edu1:hover{
-    width: 35%;
-    height: auto;
 }
 .edu1 h2{
     color: grey;
@@ -126,6 +121,7 @@ html{
     border-radius: 40px;
     
 }
+
 .edu1 p{
     color: antiquewhite;
 }
@@ -137,12 +133,8 @@ html{
     background: linear-gradient(45deg,#20bcc4,#9d86dd);
     width: 30%;
     border-radius: 20px;
-    transition: all 1s ease;
 }
-.edu2:hover{
-    width: 35%;
-    height: auto;
-}
+
 .edu2 h2{
     color: grey;
     font-size: 30px;
@@ -162,12 +154,8 @@ html{
     background: linear-gradient(45deg,#20bcc4,#9d86dd);
     width: 30%;
     border-radius: 20px;
-    transition: all 1s ease;
 }
-.edu3:hover{
-    width:35%;
-    height: auto;
-}
+
 .edu3 h2{
     color: grey;
     font-size: 30px;
@@ -191,7 +179,7 @@ html{
     justify-content: space-evenly;
 }
 .skills img{
-    width: 10%;
+    width: 94px;
 }
 footer{
     display: flex;
