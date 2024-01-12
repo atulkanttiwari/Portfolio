@@ -3,7 +3,7 @@
         flex-direction: column;      
     }
     .navbar{
-        height: 333px;
+        height: 46vh;
         padding: 20px;
         flex-direction: column;
         transition: all 0.7s ease-out;
@@ -22,7 +22,7 @@
         display: block;
     }
     .h-nav-resp{
-        height: 40px;
+        height: 10vmin;
     }
     .v-class-resp{
         opacity:0;
@@ -40,9 +40,13 @@
         width: 75%;
         height: auto;
     }
-
-    .contacts{
+    .copy{
+        text-align: center;
+        width: 78vmin;
+    }
+    footer{
         display: flex;
         flex-direction: column;
+        padding: 2vmin;
     }
 }

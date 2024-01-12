@@ -198,29 +198,39 @@ html{
     justify-content: space-evenly;
 }
 .skills img{
-    width: 21vmin;
-    padding: 1vmin;
+    width: 15vmin;
+    padding: 2vmin;
+    border-radius: 4vmin;
 }
 
 .skills img:hover{
     box-shadow: 0 0 1rem rgba(0, 0, 0, 130.3);
 }
 
-.contacts{
+footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: linear-gradient(45deg,#20bcc4,#9d86dd);
-    padding: 4vmin;
+    padding: 0 40vmin;
     font-size: 3.6vmin;
+    color: black;
 }
+
 .contact {
     display: flex;
     align-items: center;
     justify-content: right;
-    margin-right: 40px;
+    margin-right: 1vmin;
     color: antiquewhite;
 }
+
+.contact img{
+    width: 7vmin;
+    padding: 1vmin;
+    border-radius: 3vmin;
+}
+
 .contact a{
     display: flex;
     align-items: center;
@@ -236,12 +246,12 @@ html{
     position: absolute;
     cursor: pointer;
     right: 4%;
-    top: 26px;
+    top: 7vmin;
 }
 
 .line{
-    width: 33px;
-    background-color: rgb(8, 0, 0);
-    height: 4px;
+    width: 6vmin;
+    background-color: rgb(8, 0, 2);
+    height: 0.6vmin;
     margin: 5px 3px;
 }
