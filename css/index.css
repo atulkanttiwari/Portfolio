@@ -212,7 +212,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(45deg,#20bcc4,#9d86dd);
-    padding: 0 40vmin;
+    padding: 0 30vmin;
     font-size: 3.6vmin;
     color: black;
 }
@@ -239,6 +239,11 @@ footer{
     color: rgb(4, 4, 36);
     color: antiquewhite;
     padding: 1vmin;
+    border-radius: 4vmin;
+}
+
+.contact a:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 3);
 }
 
 .burger{
