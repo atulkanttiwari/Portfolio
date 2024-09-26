@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 23px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Ubuntu',sans-serif;
+    cursor: pointer;
+}
+
+.nav-list li a:hover{
+    color: linear-gradient(#08cfd90a);
+}
+
+.rightNav{
+    text-align: right;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+
+.background{
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navbar .name b{
+    font-size: 9vmin;
+    margin: 10px 20px;
+    color: blue;
+    font-family:Garamond;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: linear-gradient(45deg,#20bcc4,#9d86dd);
+    font-size: 18px;
+    margin: 0 30px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 7vmin;
+}
+
+.line{
+    width: 6vmin;
+    background-color: rgb(8, 0, 2);
+    height: 0.6vmin;
+    margin: 5px 3px;
+}
+
+.myProject {
+    text-align: center;
+    font-size: 9vmin;
+}
+.projectCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 10px 0;
+    width: 25%;
+    min-height: 350px;
+}
+
+.projectCard > .projectName {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.projectCard > .projectTech {
+    font-size: 20px;
+    color: gray;
+    font-weight: 700;
+}
+
+.projectCard > .projectImg > a > img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.projectVisitBtn {
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.projectVisitBtn > a{
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg,#20bcc4,#9d86dd);
+    padding: 0 30vmin;
+    font-size: 3.6vmin;
+    color: black;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 1vmin;
+    color: antiquewhite;
+}
+
+.contact img{
+    width: 7vmin;
+    padding: 1vmin;
+    border-radius: 3vmin;
+}
+
+.contact a{
+    display: flex;
+    align-items: center;
+    margin: 0 8px ;
+    text-decoration: none;
+    color: rgb(4, 4, 36);
+    color: antiquewhite;
+    padding: 1vmin;
+    border-radius: 4vmin;
+}
+
+.contact a:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 3);
+}
+
+@media only screen and (max-width:1325px) {
+    .nav-list{
+        flex-direction: column;      
+    }
+    .navbar{
+        height: 46vh;
+        padding: 20px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;       
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 10vmin;
+    }
+    .v-class-resp{
+        opacity:0;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .educ{
+        display: flex;
+        flex-direction: column;
+    }
+    .educ-resp{
+        margin: 8px auto;
+        padding: 2px 4px;
+        width: 75%;
+        height: auto;
+    }
+    .copy{
+        text-align: center;
+        width: 90vmin;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 2vmin;
+    }
+}
